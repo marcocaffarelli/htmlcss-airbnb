@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  text-align: center;
+}
+
+.immagine{
+  position: relative;
+}
+
+.immagine h1{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
